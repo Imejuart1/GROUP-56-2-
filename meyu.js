@@ -17,7 +17,7 @@ return false;
 }
 if ((a.length < 5) || (a.length > 15))
 {
-alert("Your Character must be 5 to 15 Character");
+alert("Your username must be 5 to 15 Character");
 document.form.name.select();
 return false;
 }
