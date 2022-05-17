@@ -21,7 +21,7 @@ document.form.name.select();
 return false;
 }
 }
-}
+
 
 //validate password
 function validatePassword(){
