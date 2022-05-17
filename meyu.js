@@ -1,3 +1,19 @@
+function validation()
+{
+var a = document.form.username.value;
+if(a=="")
+{
+alert("Please Enter Your Name");
+document.form.username.focus();
+return false;
+}
+if(!isNaN(a))
+{
+alert("Please Enter Only Characters");
+document.form.username.select();
+return false;
+}
+}
 function validatePassword(){
     if(password.value != confirm_password.value) {
       confirm_password.setCustomValidity("Passwords Don't Match");
