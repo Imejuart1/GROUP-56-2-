@@ -10,7 +10,7 @@ return false;
 }
 if(!isNaN(a))
 {
-alert("Please Enter Only Characters");
+alert("Please Enter Only Characters for username");
 document.form.username.select();
 return false;
 }
@@ -25,16 +25,16 @@ return false;
 //Validate email
 function validation()
 {
-var a = document.form.email.value;
-if(a=="")
+var b = document.form.email.value;
+if(b=="")
 {
 alert("Please Enter Your Name");
 document.form.email.focus();
 return false;
 }
-if(!isNaN(a))
+if(!isNaN(b))
 {
-alert("Please Enter Only Characters");
+alert("Please Enter Only Characters for email");
 document.form.email.select();
 return false;
 }
