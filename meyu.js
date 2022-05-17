@@ -22,6 +22,23 @@ return false;
 }
 }
 
+//Validate email
+function validation()
+{
+var a = document.form.email.value;
+if(a=="")
+{
+alert("Please Enter Your Name");
+document.form.email.focus();
+return false;
+}
+if(!isNaN(a))
+{
+alert("Please Enter Only Characters");
+document.form.email.select();
+return false;
+}
+}
 
 //validate password
 function validatePassword(){
