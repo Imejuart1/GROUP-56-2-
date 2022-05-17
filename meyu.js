@@ -23,7 +23,7 @@ return false;
 }
 }
 
-#validate password
+//validate password
 function validatePassword(){
     if(password.value != confirm_password.value) {
       confirm_password.setCustomValidity("Passwords Don't Match");
@@ -35,7 +35,7 @@ function validatePassword(){
   password.onchange = validatePassword;
   confirm_password.onkeyup = validatePassword;
 
-  #responsive navbar
+  //responsive navbar
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -47,7 +47,7 @@ function validatePassword(){
   const togglePassword = document.querySelector('#togglePassword');
   const rassword = document.querySelector('#password');
   
- #password eye
+ //password eye
   togglePassword.addEventListener('click', function (e) {
     // toggle the type attribute
     const type = rassword.getAttribute('type') === 'password' ? 'text' : 'password';
