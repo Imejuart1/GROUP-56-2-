@@ -2,7 +2,6 @@
 function validation()
 {
 var a = document.form.username.value;
-var b = document.form.email.value;
 if(a=="")
 {
 alert("Please Enter Your Name");
