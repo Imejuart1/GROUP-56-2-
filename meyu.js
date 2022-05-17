@@ -2,6 +2,7 @@
 function validation()
 {
 var a = document.form.username.value;
+var b = document.form.email.value;
 if(a=="")
 {
 alert("Please Enter Your Name");
@@ -20,15 +21,9 @@ alert("Your Character must be 5 to 15 Character");
 document.form.name.select();
 return false;
 }
-}
-
-//Validate email
-function validation()
-{
-var b = document.form.email.value;
 if(b=="")
 {
-alert("Please Enter Your Name");
+alert("Please Enter Your email");
 document.form.email.focus();
 return false;
 }
@@ -39,6 +34,9 @@ document.form.email.select();
 return false;
 }
 }
+
+
+
 
 //validate password
 function validatePassword(){
