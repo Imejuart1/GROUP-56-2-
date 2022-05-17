@@ -21,18 +21,6 @@ alert("Your username must be 5 to 15 Character");
 document.form.name.select();
 return false;
 }
-if(b=="")
-{
-alert("Please Enter Your email");
-document.form.email.focus();
-return false;
-}
-if(!isNaN(b))
-{
-alert("Please Enter Only Characters for email");
-document.form.email.select();
-return false;
-}
 }
 
 
